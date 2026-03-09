@@ -9,3 +9,10 @@ class CreditCard : PaymentMethod {
         println("Contacting Bank for Rp$amount")
     }
 }
+
+class crypto : PaymentMethod {
+    override fun pay(amount: Double) {
+        println("eth ")
+
+    }
+}

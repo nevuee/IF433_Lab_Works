@@ -7,3 +7,7 @@ interface Camera {
 interface Phone {
     fun turnon() { println("Sinyal seluler mencari jaringan.") }
 }
+
+interface Laptop {
+    fun turnon() { println("Laptop terbuka dan sensor aktif.")}
+}

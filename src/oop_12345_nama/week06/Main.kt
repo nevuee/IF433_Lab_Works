@@ -23,6 +23,7 @@ fun main() {
     println("\n=== TESTING E-COMMERCE CHECKOUT ===")
     val pay1 = Gopay()
     val pay2 = CreditCard()
+    val pay3 = crypto()
 
     processCheckout(pay1, 50000.0)
     processCheckout(pay2, 150000.0)
